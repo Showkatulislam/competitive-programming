@@ -1,0 +1,7 @@
+all of 
+none_of
+any_of
+lamda funtion
+  square bracket
+  input parameter
+  
