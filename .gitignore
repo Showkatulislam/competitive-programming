@@ -1,3 +1,4 @@
-#ignore 
-/*.exe
-/*.o
+# ignore all .a files
+*.exe
+# ignore all .a files
+*.o
