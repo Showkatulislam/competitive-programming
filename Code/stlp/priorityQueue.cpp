@@ -5,9 +5,11 @@ using namespace std;
 int main()
 {
     priority_queue<int> q;
-    q.push(3);
-    q.push(4);
-    q.push(33);
+    q.push(10);
+    q.push(30);
+    q.push(20);
+    q.push(5);
+    q.push(1);
     while (!q.empty())
     {
         cout<<q.top()<<endl;

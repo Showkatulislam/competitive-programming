@@ -13,29 +13,28 @@ void dfs(int vertex){
         dfs(child);
     }
 }
-/* void dfsm(int vertex){
+ void dfsm(int vertex){
     if(!vis[vertex]){
-        cout<<vertex<<" "<<endl;
+        cout<<vertex<<" ";
         vis[vertex]=true;
         for(int child:g[vertex]){
-            cout<<"par "<<vertex<<"child "<<child<<endl;
             if(!vis[child]){
                 dfsm(child);
             }
         }
     }
-} */
+} 
 int main()
 {
  int n,m;
- cin>>n>>m;
+ cin>>m;
  for(int i=0;i<m;++i){
      int v1,v2;
      cin>>v1>>v2;
      g[v2].push_back(v1);
      g[v1].push_back(v2);
  }
- dfs(1);
+ dfsm(1);
 }
 /* 
 6 9

@@ -1,0 +1,21 @@
+power of two
+8/2=4;  4/2=2; 2/2=1;
+
+improve power of two
+if x*x-1 will be 0;
+let x=4 --100
+  x-1=3 --011
+  x&x-1=  000
+let x=5 --101
+  x-1=4 --100
+  x&x-1=  101
+
+*find of number of one in binary representation
+4=100=>number one is 1
+5=101=>number one is 2
+iteration time log(2)
+
+bit manipulation worst case log(2)
+
+equation is x&x-1
+

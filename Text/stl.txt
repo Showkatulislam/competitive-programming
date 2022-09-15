@@ -1,0 +1,41 @@
+https://gist.github.com/sharmaeklavya2/8aa2830f3a46a3f46ff249b4e1f07767
+pair initialize
+pair<int char> g;
+g(1,'d')
+make_pair(1,'a')
+{1,'a'}
+function=========
+make_pair
+swap
+tie
+list function====
+push_back
+push_front
+back
+push_front
+pop_front
+pop_bak
+begin()
+end()
+rbegin()----point reverse iterator
+empty()
+insert
+erase
+assign
+reverse
+size
+sort
+list_unique
+queue=======
+fifo
+empty
+size
+swap
+front
+back
+push
+pop()
+priority queue====
+top-always biggest element;
+insert
+begin()
